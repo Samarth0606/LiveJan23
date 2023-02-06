@@ -1,0 +1,10 @@
+h1{
+    color: burlywood;
+    text-decoration: line-through;
+    border: 5px solid black;
+}
+
+h4{
+    color: cornflowerblue;
+    background-color: chocolate;
+}
