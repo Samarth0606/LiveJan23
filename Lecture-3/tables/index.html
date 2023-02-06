@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tables</h1>
+
+    <table border="2" cellspacing="10" cellpadding="10" align="left" bgcolor="lightgrey">
+
+        <thead>
+            <tr>
+                <th>Period/Days</th>
+                <th>Mon</th>
+                <th>Tues</th>
+                <th>Wed</th>
+                <th>Thurs</th>
+                <th>Fri</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td rowspan="3">MATHS</td>
+                <td rowspan="3">ECO</td>
+                <td>PHYSICS</td>
+                <td>CHEMISTRY</td>
+                <td rowspan="4">HTML</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <!-- <td>MATHS</td> -->
+                <!-- <td>ECO</td> -->
+                <td>CHEMISTRY</td>
+                <td>PHYSICS</td>
+                <!-- <td>HTML</td> -->
+            </tr>
+            <tr>
+                <td>3</td>
+                <!-- <td>MATHS</td> -->
+                <!-- <td>ECO</td> -->
+                <td colspan="2" >PHYSICS</td>
+                <!-- <td>PHYSICS</td> -->
+                <!-- <td>HTML</td> -->
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>ECO</td>
+                <td>MATHS</td>
+                <td colspan="2">CHEMISTRY</td>
+                <!-- <td>CHEMISTRY</td> -->
+                <!-- <td>HTML</td> -->
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>MATHS</td>
+                <td>ECO</td>
+                <td>PHYSICS</td>
+                <td>HTML</td>
+                <td>CHEMISTRY</td>
+            </tr>
+
+        </tbody>
+        
+        <tfoot>
+            <tr>
+                <th colspan="6">time table for 10th standard</th>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    
+</body>
+</html>
