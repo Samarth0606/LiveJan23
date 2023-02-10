@@ -1,0 +1,29 @@
+/* child sibling */
+
+/* section>div>p{
+    color: blue;
+} */
+
+/* section>section>div>p{
+    color: rgb(255, 64, 0);
+} */
+
+/* section>section>p{
+    color: rgb(255, 64, 0);
+} */
+
+
+/* adjacent sibling */
+/* article + section{
+    background-color: rgb(255, 251, 0);
+} */
+
+/* section + article{
+    background-color: rgb(34, 255, 0);
+} */
+
+
+/* general sibling */
+section ~ article{
+    background-color: rgb(0, 110, 255);
+}
