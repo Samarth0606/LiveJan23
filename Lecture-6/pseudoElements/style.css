@@ -1,0 +1,45 @@
+div::first-letter{
+    font-size: 50px;
+    color: orange;
+}
+
+p::first-line{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span::first-letter{
+    font-size: 100px;
+    color: rgb(81, 255, 0);
+}
+
+
+/* a[href="http://google.com"]::first-letter{
+    color: red;
+    font-size: 100px;
+} */
+
+/* a[href="http://google.com"]::after{
+    content: "hi i am your after pseudo element";
+}
+
+a[href="http://google.com"]::before{
+    content: "hi i am your before pseudo element ";
+} */
+
+a[href="http://google.com"]::before{
+    content: '\1F4F1';
+    font-size: 50px;
+} 
+/* U+1F32E */
+
+a[href="http://google.com"]::after{
+    content: '\1F32E';
+    font-size: 50px;
+} 
+
+/* a{
+    text-decoration: none;
+} */
+a[href="http://google.com"]{
+    text-decoration: none; 
+}

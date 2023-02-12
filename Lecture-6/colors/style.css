@@ -1,0 +1,38 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+/* hexadecimal */
+div:nth-of-type(1){
+   background-color: #3D386B;
+}
+
+div:nth-of-type(2){
+    background-color: #2234af66;
+}
+
+div:nth-of-type(3){
+    background-color: #ac3423ff;
+}
+
+
+/* rgb */
+/* div:nth-of-type(1){
+    background-color: rgb(211, 23, 10) ;
+}
+ 
+div:nth-of-type(2){
+    background-color: rgb(10, 255, 00) ;
+}
+ 
+div:nth-of-type(3){
+    background-color: rgb(34, 40, 250);
+} */
+
+
+
+
+
+

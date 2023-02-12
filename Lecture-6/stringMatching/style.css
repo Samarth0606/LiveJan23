@@ -1,0 +1,29 @@
+/* a[href="https://google.com"]{
+    color:green
+}
+
+
+a[href ^= "https"]{
+    color:rgb(128, 34, 0)
+}
+
+
+a[href $= ".org"]{
+    font-size: 50px;
+    color: aqua;
+    border: 2px solid black;
+    // text-decoration: line-through; 
+    text-decoration: none;
+}
+
+a[href *= "://"]{
+    font-size: 80px;
+    color: rgb(255, 0, 247);
+} */
+
+
+a[href *= "reddit"]{
+    font-size: 80px;
+    color: rgb(255, 0, 247);
+}
+
