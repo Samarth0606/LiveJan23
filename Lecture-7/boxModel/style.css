@@ -1,0 +1,30 @@
+.box{
+    background-color: rgb(23, 207, 207);
+    width: 400px;
+    height: 400px;
+    border: 20px solid yellowgreen;
+    /* border-top: 5px solid red;
+    border-bottom: 3px dashed rgb(239, 227, 11);
+    border-left: 5px dashed rgb(22, 22, 19); 
+    border-right: 5px dotted rgb(38, 20, 230);  */
+
+    /* margin */
+    /* margin: 100px; */
+    /* margin-left: 100px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-right: 100px; */
+    /* margin: 80px 50px 70px 220px; */
+
+    /* guess the output */
+    /* margin: 50px 70px; */
+    /* margin: 50px 70px 90px; */
+
+    /* padding */
+    padding: 130px;
+    /* padding-top: 40px;
+    padding-right: 80px;
+    padding-bottom: 60px;
+    padding-left: 120px; */
+
+}

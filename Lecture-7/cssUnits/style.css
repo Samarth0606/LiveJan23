@@ -1,0 +1,47 @@
+
+/* absolute unts */
+/* #abs{
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+} */
+
+
+/* relative */
+
+/* % percentage */
+/* .a1 p{
+    font-size: 50%;
+}
+
+.a1{
+    font-size: 200px;
+} */
+
+
+/* em */
+/* .fs{
+    font-size: 20px;
+}
+li{
+    font-size: 2em;
+} */
+
+/* rem */
+
+/* .fs{
+    font-size: 100px;
+} */
+/* li{
+    font-size: 5rem;
+} */
+
+
+/* view height and view width */
+
+#pyara{
+    background-color: aqua;
+    width: 50vw;
+    height: 50vh;
+}
+
