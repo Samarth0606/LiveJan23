@@ -1,0 +1,10 @@
+li:first-child{
+    color: red;
+    /* list-style-type: square; */
+    list-style-type:'\1F499';
+    border: 1px solid black;
+    list-style-position: inside;
+    /* list-style-image: url('https://plus.unsplash.com/premium_photo-1667894376675-d5c7d5c1a2a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxM3x8fGVufDB8fHx8&auto=format&fit=crop&w=800&q=60') ; */
+
+    list-style: '\1f440' inside;
+}

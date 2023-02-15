@@ -1,0 +1,31 @@
+p:nth-of-type(1){
+    /* font-family:'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight:lighter;
+    font-style: italic;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+}
+
+h1{
+    /* display: inline-block;
+    margin: 100px auto; */
+    text-align:center;
+    font-size: 50px;
+    text-shadow: 
+    1px 1.2px 6px red,
+    1.1px 1.3px 7px rgb(26, 255, 0),
+    1.2px 1.4px 8px rgb(255, 234, 0),    
+    1.3px 1.5px 8px rgb(29, 44, 179)  
+    ;
+
+    border: 2px solid black;
+    box-shadow: 
+    1px 1.2px 6px red,
+    1.1px 1.3px 7px rgb(26, 255, 0),
+    1.2px 1.4px 8px rgb(255, 234, 0),    
+    1.3px 1.5px 8px rgb(29, 44, 179) 
+    ;
+}
