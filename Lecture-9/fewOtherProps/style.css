@@ -1,0 +1,18 @@
+/* p{
+    white-space: nowrap;
+    overflow: hidden;
+    overflow: scroll;
+    text-overflow: ellipsis;
+    text-overflow: clip;
+} */
+
+
+p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+p:hover{
+    overflow: scroll;
+    text-overflow: clip;
+}

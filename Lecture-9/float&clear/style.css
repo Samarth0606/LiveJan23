@@ -1,0 +1,14 @@
+.img1{
+    width: 200px;
+    float: left;
+    /* float: right; */
+}
+.img2{
+    float: right;
+}
+p:nth-of-type(2) , p:nth-of-type(3){
+    /* clear: left; */
+    /* clear: right; */
+    clear: both;
+
+}
