@@ -1,0 +1,63 @@
+.parent{
+    width: 70vw;
+    border: 5px solid black;
+    height: 600px;
+    background-color: antiquewhite;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* justify-content: flex-start; */
+    /* justify-content:center; */
+    /* justify-content:flex-end; */
+    /* justify-content:space-between; */
+    /* justify-content:space-evenly; */
+    /* justify-content:space-around; */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    flex-wrap: wrap;
+    /* align-content: center; */
+    /* align-items: flex-start;
+    align-items: flex-end;
+    align-items: center; */
+    /* align-items: stretch; */
+
+    /* align-content: center;
+    align-content: flex-start ;
+    align-content: space-between; */
+
+}
+
+
+div{
+    height: 150px;
+    width: 150px;
+    border: 1px solid black;
+    font-size: 26px;
+}
+
+/* div:nth-of-type(5){
+    flex-basis: 250px;
+    flex-grow: 1;
+    flex-shrink: 4;
+
+} */
+/* div:nth-of-type(1){
+    flex-grow: 1;
+    flex-shrink: 1;
+} */
+
+div:nth-of-type(2){
+    align-self: center;
+    align-self: flex-end;
+}
+
+div:nth-of-type(5){
+    align-self: center;
+    /* align-self: flex-end; */
+}
+
+
+
