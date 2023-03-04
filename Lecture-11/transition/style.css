@@ -1,0 +1,15 @@
+div{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border: 2px solid brown;
+    /* transition: 3s; */
+    transition-duration: 2s;
+    /* transition-delay: 2s; */
+    transition-property: all;
+}
+
+div:hover{
+    background-color: darkgreen;
+    border-radius: 50%;
+}
