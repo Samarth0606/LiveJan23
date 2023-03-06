@@ -1,0 +1,35 @@
+div{
+    width:350px;
+    height: 250px;
+    border: 2px solid black;
+}
+.side-a{
+    background-color: aquamarine;
+    backface-visibility: hidden;
+    z-index: 10;
+}
+.side-b{
+    background-color: coral;
+    transform: rotateY(180deg);
+}
+body{
+    perspective: 900px;
+}
+.wrapper{
+    position: relative;
+    width:350px;
+    height: 250px;
+    transition: 2s;
+    transform-style: preserve-3d;
+    margin: 30px auto;
+}
+.side-a , .side-b{
+    position: absolute;
+}
+
+.wrapper:hover{
+    transform: rotateY(180deg);
+}
+img{
+    width: 100%;
+}
