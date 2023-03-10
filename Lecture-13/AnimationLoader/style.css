@@ -1,0 +1,42 @@
+.box , .box2{
+    width: 100px;
+    height: 100px;
+    border-top: 10px solid rgb(222, 49, 49);
+    border-bottom: 10px solid rgb(230, 198, 17);
+    border-left: 10px solid rgb(26, 241, 23);
+    border-right: 10px solid rgb(41, 8, 209);
+    border-radius: 50%;
+    margin: 10px auto;
+}
+
+
+.box:hover , .box2:hover{
+    animation-name: loader , backgroundChanger;
+    animation-duration: 2s , 500ms ;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes loader {
+    0%{
+        transform: translateY(0px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(600px) rotate(180deg);
+    }
+    100%{
+        transform: translateY(0px) rotate(360deg);
+    } 
+}
+
+@keyframes backgroundChanger {
+    0%{
+        background-color: rgb(248, 162, 56);
+    }
+    50%{
+        background-color: green;
+    }
+    100%{
+        background-color: rgb(188, 29, 11);
+    } 
+}

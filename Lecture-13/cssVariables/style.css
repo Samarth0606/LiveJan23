@@ -1,0 +1,14 @@
+
+
+
+
+:root{
+    --bg-color-red: #dd4d33;
+    --bg-color-yellow: #d7dd33;
+    --font-Size-bada: 36px;
+}
+
+article , h2 , h3{
+    background-color: var(--bg-color-yellow) ;
+    font-size: var(--font-Size-bada);
+}

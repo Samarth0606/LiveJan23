@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* #sam{
+    background-color: aquamarine;
+    width: 100%;
+    height: 100vh;
+    border: 2px solid black;
+    
+} */
+.col-3 , .col , .col-6{
+    background-color: aqua;
+    height: 30px;
+    border: 1px solid black;
+}
