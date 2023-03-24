@@ -22,9 +22,9 @@ let newBool = false;
 // let ans1 = (boolVariable === newBool);
 // console.log(ans1);
 
-let ans3 = (boolVariable == 1);
+let ans3 = (boolVariable == 1); //general equality 
 console.log(ans3);
 
-let ans4 = (boolVariable === 1);
+let ans4 = (boolVariable === 1);  //strict equality 
 console.log(ans4);
 
