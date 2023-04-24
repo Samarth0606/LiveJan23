@@ -10,14 +10,14 @@ let arr = [
 ]
 
 
-let img = document.querySelector('img');
+// let img = document.querySelector('img');
 
-let num = 0;
+// let num = 0;
 
-setInterval(() => {
-    img.setAttribute('src' , arr[num] );
-    num = (num + 1 ) % arr.length;
-}, 3000);
+// setInterval(() => {
+//     img.setAttribute('src' , arr[num] );
+//     num = (num + 1 ) % arr.length;
+// }, 3000);
 
 
 
