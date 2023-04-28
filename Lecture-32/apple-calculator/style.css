@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #1c1c1c;
+}
+
+
+#container{
+    height: 100vh;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+input{
+    background-color:#1c1c1c;
+    border: 0;
+    outline: none;
+    font-size: 54px;
+    color: white;
+    padding: 0px 32px;
+    flex-grow: 1;
+    text-align: right;
+}
+
+
+.button-grid{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap: 5px;
+    flex-grow: 2;
+}
+
+button{
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    place-self: center;
+    border: 0;
+    font-size: 28px;
+    cursor: pointer;
+    color: white;
+    background-color: #505050;
+    transition-property: transform;
+    transition-duration: 200ms;
+
+}
+
+button:active{
+    transform: scale(0.85);
+}
+
+.gray-button{
+    background-color: #d4d4d2;
+    color: #1c1c1c;
+
+}
+
+.yellow-button{
+    background-color: rgb(238, 171, 14);
+    color: white;
+}
+.zero{
+    grid-column: span 2;
+    border-radius: 35%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
