@@ -25,7 +25,7 @@ input{
     background-color:#1c1c1c;
     border: 0;
     outline: none;
-    font-size: 54px;
+    font-size: 64px;
     color: white;
     padding: 0px 32px;
     flex-grow: 1;
@@ -72,7 +72,7 @@ button:active{
 }
 .zero{
     grid-column: span 2;
-    border-radius: 35%;
+    border-radius: 75px;
 }
 
 
