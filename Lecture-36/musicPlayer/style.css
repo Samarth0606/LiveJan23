@@ -1,0 +1,62 @@
+
+
+
+button{
+    border: none;
+    background: none;
+}
+
+#progress{
+    cursor: pointer;
+}
+
+i{
+    font-size: 1.8rem;
+}
+
+#song-list{
+    padding: 0;
+    list-style: none;
+}
+
+#container{
+    position: relative;
+    width: 360px;
+    border: 2px solid black;
+    height: 400px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+#play-section{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.song-item{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px 10px;
+    margin: 10px auto;
+    cursor: pointer;
+    width: 60%;
+}
+
+.song-item:hover{
+    background-color: rgb(156, 153, 153);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

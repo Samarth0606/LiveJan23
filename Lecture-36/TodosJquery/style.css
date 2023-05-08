@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#container{
+    border: 2px solid black;
+    width: 460px;
+    margin: 50px auto;
+}
+h1{
+    background-color: #2c3f74;
+    padding: 10px 5px;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+#inp{
+    width: 100%;
+    font-size: 24px;
+    padding: 8px 4px;
+    box-sizing: border-box;
+}
+li{
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 2px rgb(104, 104, 104);
+    border-radius: 5px;
+
+}
+input:focus{
+    outline: none;
+}
+
+
+.completed{
+    text-decoration: line-through;
+    color: grey;
+}
+
+#plus{
+    float: right;
+    margin-right: 15px ;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
