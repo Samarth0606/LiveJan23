@@ -7,7 +7,7 @@ app.set('views' , path.join(__dirname , 'views')); //templating file
 app.use(express.static(path.join(__dirname , 'public'))); //static files
 
 app.use(express.urlencoded({ extended: true })) //middleware to get the form data
-
+app.use(express.json()); //middleware for json data
 
 
 app.get('/' , (req,res)=>{
