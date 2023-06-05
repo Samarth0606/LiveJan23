@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/app.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Displaying all the Blogs</h1>
+    
+    <section>
+
+        <% for(let i of comments){ %>
+            <div>
+                <h1>ID is: <%= i.id %> </h1>
+                <h2>Name is: <%= i.username %> </h2>
+                <h4>Comment is: <%= i.comment %> </h4>
+                <a href="/blogs/<%= i.id %>">Show</a>
+                <br>
+                <a href="/blogs/<%= i.id %>/edit">Edit</a>
+                <br>
+                <form action="/blogs/<%= i.id %>?_method=DELETE" method="POST">
+                    <button type="submit">Delete</button>
+                </form>
+            
+            </div>
+        <% } %>
+    </section>
+
+</body>
+</html>
