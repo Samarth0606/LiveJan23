@@ -1,0 +1,9 @@
+//terminal
+
+1. show databases or show dbs //displays all the dbs in your system
+2. db //shows the db where you are currently working (test)
+3. use moviesDB //the database you want to work with right now 
+4. db.dropDatabase() //deletes the entire database from the system.
+5. use moviesDB //create a new database if already not present
+//but this movies DB is not shown in the show dbs because it needs to have 
+//some value in it before displaying.

@@ -1,0 +1,45 @@
+//mongodb.txt
+{
+	{
+		"id":1,
+		"name":"samarth",
+		"text":"hi from samarth"
+	},
+	{
+		"id":2,
+		"name":"vohra",
+		"text":"hi from vohra",
+	},
+	{
+		"id":3,
+		"name":"coding blocks",
+		"text":"hi from coding blocks",
+	}
+}
+
+this is stored like JSON format.
+
+
+so rather than making tables what we an do is that we can
+create an array of comments done by that user. (as below)
+
+{
+	{
+		"id":1,
+		"name":"samarth",
+		"text":"hi from samarth",
+		"comments" : ["hola coding"] //array instead of tables
+	},
+	{
+		"id":2,
+		"name":"vohra",
+		"text":"hi from vohra",
+		"comments" : ["hello samarth"]
+	},
+	{
+		"id":3,
+		"name":"coding blocks",
+		"text":"hi from coding blocks",
+		"comments" : ["yo blocks"]
+	}
+}
