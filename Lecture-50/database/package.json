@@ -1,0 +1,15 @@
+{
+  "name": "database",
+  "version": "1.0.0",
+  "description": "learning database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "samarth vohra",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^7.2.4",
+    "nodemon": "^2.0.22"
+  }
+}
