@@ -1,0 +1,28 @@
+<% layout('layouts/boilerplate') %>
+
+<%- include('../partials/navbar') %>    
+
+<div class="row">
+
+        <% for(let item of products){ %>
+            
+            <div class="col-lg-4 mt-3">
+                <div class="card shadow mx-auto" style="width: 18rem;">
+                    <img src="<%=item.img%>" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h2 class="card-title"><%=item.name%></h2>
+                      <h5 class="card-title"><%=item.price%></h5>
+                      <p class="card-text"><%=item.desc%></p>
+                      <a href="/products/<%=item._id%>" class="btn btn-info">View Product</a>
+                      <form class="d-inline-block" action="/products/<%=item._id%>?_method=DELETE" method="POST">
+                        <button class="btn btn-sm btn-danger">Delete</button>
+                      </form>
+                    </div>
+                </div>
+            </div>
+
+        <% } %>
+</div>
+
+</body>
+</html>
