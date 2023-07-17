@@ -1,0 +1,51 @@
+<% layout('layouts/boilerplate') -%>
+
+
+<section class="container">
+  <h1 class="display-6">My Cart</h1>
+    <div class="row">
+        <div class="col-lg-8">
+            
+            <% for(let item of user.cart){ %>
+                <div class="card mx-auto mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-4">
+                        <img src="<%=item.img%>" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-8">
+                        <div class="card-body">
+                          <h5 class="card-title"><%=item.name%></h5>
+                          <p class="card-text"><%=item.desc%></p>
+                          <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            <%} %> 
+        </div>
+        <div class="col-lg-4">
+            <ul class="list-group">
+                <% for(let item of user.cart) {%>
+                    <li class="list-group-item"><span class="fw-bold"><%=item.name%> - </span>$ <%=item.price%> <span></span></li>
+                <% } %> 
+                <li class="list-group-item fw-bold">Total Amount : $ <%=totalAmount%></li>
+            </ul>
+
+            <form action="/payment_gateway/payumoney" method="POST">
+              <input type="hidden" name="amount" value="<%=totalAmount%>"/>
+              <input type="hidden" name="phone" value="9999999999" />
+              <input type="hidden" name="service_provider" 
+               value="payu_paisa"/>
+              <input type="hidden" class="product" name="productinfo" 
+               value="<%=productInfo%>"/>
+               
+               <button type="submit" class="btn btn-sm btn-success my-3" >Checkout</button>
+               <!-- <input type="submit" value="Pay"/> -->
+              </form>
+
+        </div>
+    </div>
+
+   
+</section>
+
