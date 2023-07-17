@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+
+.nav{
+    background-color: rgb(79, 122, 79);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 60px;
+    font-size: 22px;
+}
+
+.nav ul{
+    list-style: none;
+    justify-content: left;
+    display: flex;
+    gap: 40px;
+}
+
+.nav h2{
+    color: white;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+}
