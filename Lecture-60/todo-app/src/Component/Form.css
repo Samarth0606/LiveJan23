@@ -1,0 +1,13 @@
+
+.divv{
+    font-size: 40px;
+    background-color: beige;
+    display: block;
+    width: 600px;
+    margin: 20px auto;
+    /* background-color: orange; */
+}
+
+body{
+    background-color: rgb(95, 91, 84);
+}

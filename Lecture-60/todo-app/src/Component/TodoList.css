@@ -1,0 +1,8 @@
+
+.todo-list{
+    list-style: none;
+    text-transform: uppercase;
+    margin: 30px auto;
+    width: 600px;
+    
+}
