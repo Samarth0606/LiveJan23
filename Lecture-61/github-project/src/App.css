@@ -1,0 +1,10 @@
+.app{
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 1px 2px 3px #6f6f69;
+}
+.parent{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
