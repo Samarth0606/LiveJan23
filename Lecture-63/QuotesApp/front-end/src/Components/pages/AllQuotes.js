@@ -25,9 +25,10 @@ const AllQuotes = () => {
         {
             quotes.map((quote , index)=>{
                 return <Quote
-                    key={index}
+                    key={quote._id}
                     author={quote.author}
                     text={quote.text}
+                    id={quote._id}
                  />
             })
         }
